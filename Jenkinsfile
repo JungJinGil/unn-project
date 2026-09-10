@@ -4,7 +4,7 @@ pipeline {
     environment {
         REGISTRY = "ec2-15-165-76-75.ap-northeast-2.compute.amazonaws.com"
         PROJECT  = "unn-project"
-        IMAGE    = "web03"
+        IMAGE    = "web05"
         TAG      = "${env.BUILD_NUMBER}"
     }
 
